@@ -1,2 +1,5 @@
 #!/bin/bash
-gcc -E $CFILE -o c
+cfile=$CFILE
+output_file="c"
+gcc -E $cfile -o $output_file
+$ CFILE=my_c_program.c ./preprocess.sh
